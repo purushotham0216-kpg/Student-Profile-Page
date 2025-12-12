@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">Sir MVIT</div>
+    <ul>
+        <li><a href="#" id="dashboardBtn">Dashboard</a></li>
+        <li><a href="#" id="profileBtn">Profile</a></li>
+        <li><a href="#">Grades</a></li>
+        <li><a href="#">Logout</a></li>
+    </ul>
+</nav>
+
+<div id="dashboardPage" class="page active">
+    <h1>Welcome to Sir MVIT Dashboard</h1>
+    <p>Click Profile to view your details.</p>
+</div>
+
+<div id="profilePage" class="page">
+
+    <div class="container">
+
+        <div class="profile-header">
+            <img src="person1.jpg" id="profilePic" alt="Profile Picture">
+            <div>
+                <h2 id="name">Name: Purushotham Gowda</h2>
+                <h4 id="age">Age: 20</h4>
+                <p id="title">Web Developer</p>
+            </div>
+        </div>
+
+    
+        <div class="section">
+            <h3>About</h3>
+            <p>
+         a passionate learner and aspiring web developer with strong interest 
+                in modern technologies, problem solving, and software development.   I enjoy working on creative 
+                projects and improving my skills daily.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Bio</h3>
+            <p id="Bio">
+                Passionate full-stack developer who enjoys solving problems and learning new technologies.
+                Experienced in building responsive web designs and interactive applications.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Contact Details</h3>
+            <ul>
+                <li><strong>Email:</strong> purushotham16@example.com</li>
+                <li><strong>Phone:</strong> +91 98**5 ****0</li>
+                <li><strong>City:</strong> Bengaluru, India</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Education</h3>
+            <ul>
+                <li>Course 11/12/PUC – Science (PCMC)</li>
+                <li>College – KLE (2024)</li>
+                <li>Course – B.Tech</li>
+                <li>Branch – AIML</li>
+                <li>College – SMVIT (2028)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <ul id="skillList">
+                <li>HTML</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
